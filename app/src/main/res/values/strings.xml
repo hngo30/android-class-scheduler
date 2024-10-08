@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TabLAYOUTFINAL</string>
+
+    Add, Edit, and Delete Assignment Details:
+
+    For adding assignments, you can keep the existing "ADD ASSIGNMENT" button functionality.
+    To edit and delete, you might want to consider long-pressing an assignment to bring up a context menu with options to edit or delete.
+    List Assignments with Sorting Options:
+
+    You can add a menu or some UI element to allow users to switch between sorting options.
+    Use a data structure or class to store assignment details (title, due date, associated class), and update the ListView accordingly based on the selected sorting option.
+    Display Group of Assignments Creatively:
+
+    Consider using card views or expanding elements to show assignment details in a visually appealing way.
+    You might want to implement a RecyclerView for more flexibility in displaying assignments.
+    Implement at Least 2 Sorting Options:
+
+    Add UI elements or a menu to allow users to choose between sorting options (e.g., due date, course).
+    Update your data structure or sorting logic to reflect the selected option.
+    Creative Progress Bar:
+
+    Implementing a progress bar is a great idea. You can allow users to set a percentage of completion for each assignment.
+    Consider using a seek bar or a custom view to input and display the progress percentage.
+
+</resources>

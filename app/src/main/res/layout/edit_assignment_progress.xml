@@ -1,0 +1,24 @@
+<!-- res/layout/edit_assignment_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Progress (ex. '50% complete', '2 parts remaining'"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/progressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress will be displayed here.">
+    </TextView>
+
+    <!-- Add more EditText fields for other progress details if needed -->
+
+</LinearLayout>

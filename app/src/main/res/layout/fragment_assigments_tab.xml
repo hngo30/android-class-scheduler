@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FRAGMENTS.AssignmentsTabFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/assignment_name"
+        android:hint="Enter Assignment Name:"
+        android:textSize="24dp"
+        >
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonADD"
+        android:text="ADD ASSIGNMENT"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSortByDueDate"
+        android:text="Sort By Due Date"
+        android:layout_gravity="left"
+        android:textSize="18dp">
+    </Button>
+
+    <Button
+        android:id="@+id/buttonSortByTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by Title"
+        android:textSize="18dp">
+    </Button>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructions"
+        android:text="Long-press an assignment for options"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        >
+    </TextView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        >
+    </ListView>/>
+
+</LinearLayout>
